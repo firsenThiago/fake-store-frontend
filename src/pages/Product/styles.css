@@ -1,0 +1,97 @@
+.cointanerProduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 48px;
+  padding: 85px 96px;
+}
+
+.coitainerResumeProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cointanerProduct .cardProduct:hover {
+  transform: none;
+}
+
+.coitainerResumeProduct h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1e1e1e;
+  margin-bottom: 14px;
+}
+
+.coitainerProductDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.starsContainer {
+  width: 88px;
+  height: 20px;
+  position: relative;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+}
+
+.starsContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 88px;
+}
+
+.line {
+  height: 0px;
+  border: 1px solid rgba(69, 77, 74, 0.4);
+}
+
+.containerInformationsProduct {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0px 15px 0px;
+}
+
+.displayRow {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.containerInformationsProduct h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.containerInformationsProduct h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.bigTitle h4:first-of-type {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}

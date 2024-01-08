@@ -1,0 +1,111 @@
+footer {
+  height: 400px;
+  background-color: #c1dcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 45px 96px 0px 96px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerFooter {
+  width: 192px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.containerText h3 {
+  font-family: "Tsukimi Rounded", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.containerText p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+  text-align: center;
+}
+
+.containerLinks {
+  width: 192px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.containerLinks a {
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(30, 30, 30, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textFooter {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+}
+
+.containerInformations {
+  display: flex;
+  padding-right: 96px;
+  width: 452px;
+  height: 180px;
+  gap: 48px;
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cardFooter h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1e1e1e;
+}
+
+.cardFooter a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+  text-decoration: none;
+}

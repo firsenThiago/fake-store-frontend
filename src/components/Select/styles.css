@@ -1,0 +1,47 @@
+.containerSelect {
+  display: flex;
+  align-items: center;
+  width: 449px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #c1dcdc;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+.containerSelect:focus-within {
+  outline: 2px solid #c1dcdc;
+}
+
+.containerSelect select {
+  flex-grow: 1;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.containerSelect option {
+  background-color: #c1dcdc;
+  text-transform: capitalize;
+}
+
+.containerSelect button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1dcdc;
+  border-radius: 12px;
+  pointer-events: none;
+  border: none;
+  width: 48px;
+  height: 48px;
+  margin-left: -40px; /* Ajuste o valor para mover o botão para trás */
+}

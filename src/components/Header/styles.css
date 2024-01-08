@@ -1,0 +1,57 @@
+header {
+  height: 120px;
+  background-color: #c1dcdc;
+  display: flex;
+}
+
+header nav h1 img {
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 2;
+}
+
+.linksNav {
+  display: flex;
+  gap: 48px;
+}
+
+nav a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(30, 30, 30, 0.5);
+  text-decoration: none;
+}
+
+.cointainerButtonImg {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex: 1;
+}
+
+.customButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline gray;
+}
+
+.noActive {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+}

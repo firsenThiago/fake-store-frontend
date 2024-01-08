@@ -1,0 +1,58 @@
+.cointainerAbout {
+  background: #c1dcdc;
+  padding: 74px 96px 91px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.cointanerCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.cointainerCardAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 400px;
+}
+
+.cointainerCardAboutImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+
+.cointainerCardAboutImage img {
+  width: 40px;
+  height: 40px;
+}
+
+.cointainerCardAboutImage h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.cointainerCardAbout h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(30, 30, 30, 0.5);
+}
